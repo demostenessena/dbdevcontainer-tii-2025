@@ -6,7 +6,10 @@
 	"image": "mcr.microsoft.com/devcontainers/python:2-3.14-trixie",
 	"features": {
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/itsmechlark/features/postgresql:1": {}
+		"ghcr.io/itsmechlark/features/postgresql:1": {},
+		"ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    	}
 	},
 	"customizations": {
 		"vscode": {
@@ -21,7 +24,7 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	// "forwardPorts": [5432]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
