@@ -15,7 +15,8 @@
 		"vscode": {
 			"extensions": [
 				"mtxr.sqltools",
-				"cmoog.sqlnotebook"
+				"cmoog.sqlnotebook",
+				"mtxr.sqltools-driver-pg"
 			]
 		}
 	}
